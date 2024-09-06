@@ -1,0 +1,113 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: 10px solid; 
+    border-radius: 20px;
+    position: relative;
+    animation: animacao 2s linear infinite; 
+}
+
+@keyframes animacao {
+    0% {
+        border-image: linear-gradient(to right, #3498db, #136297, #034a79, #023252) 1;
+    }
+    25% {
+        border-image: linear-gradient(to right, #023252, #3498db, #136297, #034a79) 1;
+    }
+    50% {
+        border-image: linear-gradient(to right, #034a79, #023252, #3498db, #136297) 1;
+    }
+    75% {
+        border-image: linear-gradient(to right, #136297, #034a79, #023252, #3498db) 1;
+    }
+    100% {
+        border-image: linear-gradient(to right, #3498db, #136297, #034a79, #023252) 1;
+    }
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: flex-start; 
+}
+    ul {
+       list-style: none
+    }  
+
+    ul li:before {
+        content: '\2022';
+        margin: 0 2px;
+        color: #3498db
+       }
+
+.profile-photo {
+    width: 150px; 
+    height: 200px;
+    border-radius: 10%;
+    background-image: url('WhatsApp Image 2024-08-27 at 21.51.34.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px; 
+}
+
+.imagem-email {
+    background-image: url('38ffe7cdcf9ef41e38a4b0eba631e684.jpg');
+}
+.imagem-endereço {
+    background-image: url('1275303.png');
+}
+
+.imagem-linkedin{
+    background-image: url('images.png')
+}
+
+.imagem-telefone {
+    background-image: url('220_F_521352504_BL126LdsheVi6fNAbYomuthGxrMFEWBd.jpg');
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info h3 {
+    font-size: 14px;
+    color: #3498db;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Date {
+    color: #0b63c3;
+}
+
+.Date2 {
+    color: #0b63c3;
+}
